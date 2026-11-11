@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fperez.bluetooth",
+  "name": "Bluetooth Pairing Card (Experimental)",
+  "version": "1.0.0",
+  "author": "Omarchy",
+  "description": "Omarchy Bluetooth card with keyboard pairing codes shown in the panel.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Bluetooth Pairing Card (Experimental)",
+    "description": "Bluetooth device list with connect/disconnect",
+    "category": "Network",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.bluetooth"
+  }
+}
