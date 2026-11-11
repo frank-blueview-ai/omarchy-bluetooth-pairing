@@ -6,4 +6,10 @@ An Omarchy Bluetooth panel clone that displays keyboard pairing codes in the car
 
 Requires Omarchy's shell and BlueZ, Python 3, and PyGObject (Gio). The manifest retains the `fperez.bluetooth` identifier from the original personal clone, so installing it may conflict with an existing plugin of that name. Review the files and back up any existing plugin before installation.
 
+To install after reviewing those limitations:
+
+```bash
+omarchy plugin add https://github.com/frank-blueview-ai/omarchy-bluetooth-pairing --enable
+```
+
 The panel and model are derived from [Omarchy](https://github.com/omacom/omarchy), copyright David Heinemeier Hansson and contributors, and distributed under the included MIT license.
