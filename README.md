@@ -2,7 +2,7 @@
 
 An Omarchy Bluetooth panel clone that displays keyboard pairing codes in the card. Select an unpaired keyboard, then type the code shown on the keyboard and press Enter.
 
-**Experimental:** Tested on a Logitech Craft to the point that the pairing code appeared. The agent currently rejects pairing methods requiring confirmation or entering a PIN on the computer; those devices may fail to pair using this panel. Error handling, cancellation, accessibility, translations and compatibility with other devices need further work. Use the stock panel or `bluetoothctl` if your device needs another pairing method.
+**Experimental:** Tested with a Logitech Craft: the code appeared in the card and the keyboard connected. The agent currently rejects pairing methods requiring confirmation or entering a PIN on the computer; those devices may fail to pair using this panel. Error handling, cancellation, accessibility, translations and compatibility with other devices need further work. Use the stock panel or `bluetoothctl` if your device needs another pairing method.
 
 Requires Omarchy's shell and BlueZ, Python 3, and PyGObject (Gio). The manifest retains the `fperez.bluetooth` identifier from the original personal clone, so installing it may conflict with an existing plugin of that name. Review the files and back up any existing plugin before installation.
 
